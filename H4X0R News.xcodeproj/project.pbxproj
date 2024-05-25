@@ -11,6 +11,10 @@
 		3611587F2C0206E100AD4B41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611587E2C0206E100AD4B41 /* ContentView.swift */; };
 		361158812C0206E200AD4B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361158802C0206E200AD4B41 /* Assets.xcassets */; };
 		361158842C0206E200AD4B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361158832C0206E200AD4B41 /* Preview Assets.xcassets */; };
+		3611588C2C02085C00AD4B41 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611588B2C02085C00AD4B41 /* NetworkManager.swift */; };
+		3611588F2C02098500AD4B41 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611588E2C02098500AD4B41 /* Results.swift */; };
+		361158932C02135B00AD4B41 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361158922C02135B00AD4B41 /* DetailView.swift */; };
+		361158952C02184D00AD4B41 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361158942C02184D00AD4B41 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3611587E2C0206E100AD4B41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		361158802C0206E200AD4B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361158832C0206E200AD4B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3611588B2C02085C00AD4B41 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3611588E2C02098500AD4B41 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		361158922C02135B00AD4B41 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		361158942C02184D00AD4B41 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		3611587B2C0206E100AD4B41 /* H4X0R News */ = {
 			isa = PBXGroup;
 			children = (
+				3611588D2C02097400AD4B41 /* Model */,
+				3611588A2C02084500AD4B41 /* data */,
 				3611587C2C0206E100AD4B41 /* H4X0R_NewsApp.swift */,
-				3611587E2C0206E100AD4B41 /* ContentView.swift */,
+				361158912C02132200AD4B41 /* Views */,
 				361158802C0206E200AD4B41 /* Assets.xcassets */,
 				361158822C0206E200AD4B41 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				361158832C0206E200AD4B41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3611588A2C02084500AD4B41 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3611588B2C02085C00AD4B41 /* NetworkManager.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3611588D2C02097400AD4B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3611588E2C02098500AD4B41 /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		361158912C02132200AD4B41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3611587E2C0206E100AD4B41 /* ContentView.swift */,
+				361158922C02135B00AD4B41 /* DetailView.swift */,
+				361158942C02184D00AD4B41 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3611588C2C02085C00AD4B41 /* NetworkManager.swift in Sources */,
 				3611587F2C0206E100AD4B41 /* ContentView.swift in Sources */,
+				3611588F2C02098500AD4B41 /* Results.swift in Sources */,
+				361158952C02184D00AD4B41 /* WebView.swift in Sources */,
+				361158932C02135B00AD4B41 /* DetailView.swift in Sources */,
 				3611587D2C0206E100AD4B41 /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
